@@ -21,7 +21,7 @@ FC=gfortran
 AS=as
 
 # Macros
-CND_PLATFORM=MinGW-Windows
+CND_PLATFORM=Cygwin-Windows
 CND_DLIB_EXT=dll
 CND_CONF=Debug
 CND_DISTDIR=dist
@@ -41,8 +41,8 @@ OBJECTFILES=
 CFLAGS=
 
 # CC Compiler Flags
-CCFLAGS=
-CXXFLAGS=
+CCFLAGS=-O0 -ggdb3 -Woverloaded-virtual -Wunused -Wtautological-compare -Wshadow -Wconversion -Wmissing-field-initializers -Wno-multichar
+CXXFLAGS=-O0 -ggdb3 -Woverloaded-virtual -Wunused -Wtautological-compare -Wshadow -Wconversion -Wmissing-field-initializers -Wno-multichar
 
 # Fortran Compiler Flags
 FFLAGS=

@@ -35,6 +35,14 @@
         <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <commandLine>-O0 -ggdb3 -Woverloaded-virtual -Wunused -Wtautological-compare -Wshadow -Wconversion -Wmissing-field-initializers -Wno-multichar</commandLine>
+        </ccTool>
         <archiverTool>
         </archiverTool>
       </compileType>
@@ -48,9 +56,13 @@
       <compileType>
         <cTool>
           <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
+          <commandLine>-O3 -ggdb3 -Woverloaded-virtual -Wunused -Wtautological-compare -Wshadow -Wconversion -Wmissing-field-initializers -Wno-multichar</commandLine>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
