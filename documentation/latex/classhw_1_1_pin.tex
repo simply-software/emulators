@@ -1,0 +1,67 @@
+\hypertarget{classhw_1_1_pin}{}\doxysection{hw\+::Pin$<$ D\+A\+T\+A\+\_\+\+T\+Y\+PE $>$ Class Template Reference}
+\label{classhw_1_1_pin}\index{hw::Pin$<$ DATA\_TYPE $>$@{hw::Pin$<$ DATA\_TYPE $>$}}
+
+
+{\ttfamily \#include $<$pin.\+h$>$}
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structhw_1_1_pin_1_1_data_type}{Data\+Type}}
+\item 
+struct \mbox{\hyperlink{structhw_1_1_pin_1_1_data_type_3_01_pin_type_1_1_a_n_a_l_o_g_01_4}{Data\+Type$<$ Pin\+Type\+::\+A\+N\+A\+L\+O\+G $>$}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{classhw_1_1_pin_a7779ec2f4e2f32eb52e30c2b8a83c75d}{value\+\_\+type}} = \mbox{\hyperlink{structhw_1_1_pin_1_1_data_type}{Data\+Type}}$<$ D\+A\+T\+A\+\_\+\+T\+Y\+PE $>$\+::type
+\item 
+using \mbox{\hyperlink{classhw_1_1_pin_ac5477677e5bd2be3515c3dc7b1f5fca6}{signal\+\_\+type}} = D\+A\+T\+A\+\_\+\+T\+Y\+PE
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhw_1_1_pin_a7779ec2f4e2f32eb52e30c2b8a83c75d}{value\+\_\+type}} \mbox{\hyperlink{classhw_1_1_pin_ab66cc386a51bc23dc040c1aacbffaa13}{get\+\_\+value}} () const
+\item 
+{\footnotesize template$<$typename N\+E\+W\+\_\+\+V\+A\+L\+U\+E\+\_\+\+T\+Y\+PE $>$ }\\std\+::enable\+\_\+if$<$ std\+::is\+\_\+same$<$ N\+E\+W\+\_\+\+V\+A\+L\+U\+E\+\_\+\+T\+Y\+PE, \mbox{\hyperlink{classhw_1_1_pin_a7779ec2f4e2f32eb52e30c2b8a83c75d}{value\+\_\+type}} $>$\+::value, void $>$\+::type \mbox{\hyperlink{classhw_1_1_pin_aefc194061ebc61f327c279efacd3c8c4}{set\+\_\+value}} (N\+E\+W\+\_\+\+V\+A\+L\+U\+E\+\_\+\+T\+Y\+PE new\+\_\+value) \mbox{\hyperlink{namespacehw_ae96c4373a499b51093c8408536a885f4}{m\+\_\+value}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classhw_1_1_pin_a7779ec2f4e2f32eb52e30c2b8a83c75d}\label{classhw_1_1_pin_a7779ec2f4e2f32eb52e30c2b8a83c75d}} 
+\index{hw::Pin$<$ DATA\_TYPE $>$@{hw::Pin$<$ DATA\_TYPE $>$}!value\_type@{value\_type}}
+\index{value\_type@{value\_type}!hw::Pin$<$ DATA\_TYPE $>$@{hw::Pin$<$ DATA\_TYPE $>$}}
+\doxysubsubsection{\texorpdfstring{value\_type}{value\_type}}
+{\footnotesize\ttfamily template$<$Pin\+Type D\+A\+T\+A\+\_\+\+T\+Y\+PE$>$ \\
+using \mbox{\hyperlink{classhw_1_1_pin}{hw\+::\+Pin}}$<$ D\+A\+T\+A\+\_\+\+T\+Y\+PE $>$\+::\mbox{\hyperlink{classhw_1_1_pin_a7779ec2f4e2f32eb52e30c2b8a83c75d}{value\+\_\+type}} =  \mbox{\hyperlink{structhw_1_1_pin_1_1_data_type}{Data\+Type}}$<$D\+A\+T\+A\+\_\+\+T\+Y\+PE$>$\+::type}
+
+\mbox{\Hypertarget{classhw_1_1_pin_ac5477677e5bd2be3515c3dc7b1f5fca6}\label{classhw_1_1_pin_ac5477677e5bd2be3515c3dc7b1f5fca6}} 
+\index{hw::Pin$<$ DATA\_TYPE $>$@{hw::Pin$<$ DATA\_TYPE $>$}!signal\_type@{signal\_type}}
+\index{signal\_type@{signal\_type}!hw::Pin$<$ DATA\_TYPE $>$@{hw::Pin$<$ DATA\_TYPE $>$}}
+\doxysubsubsection{\texorpdfstring{signal\_type}{signal\_type}}
+{\footnotesize\ttfamily template$<$Pin\+Type D\+A\+T\+A\+\_\+\+T\+Y\+PE$>$ \\
+using \mbox{\hyperlink{classhw_1_1_pin}{hw\+::\+Pin}}$<$ D\+A\+T\+A\+\_\+\+T\+Y\+PE $>$\+::\mbox{\hyperlink{classhw_1_1_pin_ac5477677e5bd2be3515c3dc7b1f5fca6}{signal\+\_\+type}} =  D\+A\+T\+A\+\_\+\+T\+Y\+PE}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classhw_1_1_pin_ab66cc386a51bc23dc040c1aacbffaa13}\label{classhw_1_1_pin_ab66cc386a51bc23dc040c1aacbffaa13}} 
+\index{hw::Pin$<$ DATA\_TYPE $>$@{hw::Pin$<$ DATA\_TYPE $>$}!get\_value@{get\_value}}
+\index{get\_value@{get\_value}!hw::Pin$<$ DATA\_TYPE $>$@{hw::Pin$<$ DATA\_TYPE $>$}}
+\doxysubsubsection{\texorpdfstring{get\_value()}{get\_value()}}
+{\footnotesize\ttfamily template$<$Pin\+Type D\+A\+T\+A\+\_\+\+T\+Y\+PE$>$ \\
+\mbox{\hyperlink{classhw_1_1_pin_a7779ec2f4e2f32eb52e30c2b8a83c75d}{value\+\_\+type}} \mbox{\hyperlink{classhw_1_1_pin}{hw\+::\+Pin}}$<$ D\+A\+T\+A\+\_\+\+T\+Y\+PE $>$\+::get\+\_\+value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classhw_1_1_pin_aefc194061ebc61f327c279efacd3c8c4}\label{classhw_1_1_pin_aefc194061ebc61f327c279efacd3c8c4}} 
+\index{hw::Pin$<$ DATA\_TYPE $>$@{hw::Pin$<$ DATA\_TYPE $>$}!set\_value@{set\_value}}
+\index{set\_value@{set\_value}!hw::Pin$<$ DATA\_TYPE $>$@{hw::Pin$<$ DATA\_TYPE $>$}}
+\doxysubsubsection{\texorpdfstring{set\_value()}{set\_value()}}
+{\footnotesize\ttfamily template$<$Pin\+Type D\+A\+T\+A\+\_\+\+T\+Y\+PE$>$ \\
+template$<$typename N\+E\+W\+\_\+\+V\+A\+L\+U\+E\+\_\+\+T\+Y\+PE $>$ \\
+std\+::enable\+\_\+if$<$std\+::is\+\_\+same$<$N\+E\+W\+\_\+\+V\+A\+L\+U\+E\+\_\+\+T\+Y\+PE, \mbox{\hyperlink{classhw_1_1_pin_a7779ec2f4e2f32eb52e30c2b8a83c75d}{value\+\_\+type}}$>$\+::value, void$>$\+::type \mbox{\hyperlink{classhw_1_1_pin}{hw\+::\+Pin}}$<$ D\+A\+T\+A\+\_\+\+T\+Y\+PE $>$\+::set\+\_\+value (\begin{DoxyParamCaption}\item[{N\+E\+W\+\_\+\+V\+A\+L\+U\+E\+\_\+\+T\+Y\+PE}]{new\+\_\+value }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+hardware/\mbox{\hyperlink{pin_8h}{pin.\+h}}\end{DoxyCompactItemize}
